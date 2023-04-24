@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+header img {
+    height: 80px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nationality {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.flag-HOL { background-color: orange; }
+.flag-MEX { background-color: green; }
+.flag-ESP { background-color: red; }
+.flag-GBR { background-color: blue; }
+.flag-MON { background-color: white; }
+.flag-AUS { background-color: yellow; }
+.flag-DIN { background-color: gray; }
+.flag-FIN { background-color: lightblue; }
+.flag-CHN { background-color: purple; }
+.flag-FRA { background-color: darkblue; }
+.flag-TAI { background-color: pink; }
+.flag-EUA { background-color: lightgreen; }
+.flag-CAN { background-color: black;}
+.flag-DIN { background-color: aqua;}
+.flag-MON { background-color: azure;}
+.flag-ALE { background-color: red;}
+.flag-AUS { background-color: yellowgreen;}
+.flag-JPN { background-color: aquamarine;}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
