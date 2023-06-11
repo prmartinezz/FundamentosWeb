@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Salário do Professor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .input-label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .input-field {
+      width: 100px;
+      padding: 5px;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculadora de Salário do Professor</h1>
+  
+  <div>
+    <label for="level" class="input-label">Nível do Professor:</label>
+    <select id="level" class="input-field">
+      <option value="1">Nível 1</option>
+      <option value="2">Nível 2</option>
+      <option value="3">Nível 3</option>
+    </select>
+  </div>
+  
+  <div>
+    <label for="hours" class="input-label">Horas/Aula por Semana:</label>
+    <input type="number" id="hours" class="input-field">
+  </div>
+  
+  <button onclick="calculateSalary()">Calcular</button>
+  
+  <div id="result" class="result"></div>
+
+  <script src="./script.js">
+  </script>
+</body>
+</html>

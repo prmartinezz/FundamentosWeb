@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Imposto do DETRAN</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .input-label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .input-field {
+      width: 100px;
+      padding: 5px;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculadora de Imposto do DETRAN</h1>
+  
+  <div>
+    <label for="year" class="input-label">Ano de Fabricação:</label>
+    <input type="number" id="year" class="input-field">
+  </div>
+  
+  <div>
+    <label for="value" class="input-label">Valor de Tabela:</label>
+    <input type="number" id="value" class="input-field">
+  </div>
+  
+  <button onclick="calculateTax()">Calcular</button>
+  
+  <div id="result" class="result"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

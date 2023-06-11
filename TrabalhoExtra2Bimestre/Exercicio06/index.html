@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Crédito Especial</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .input-label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .input-field {
+      width: 100px;
+      padding: 5px;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculadora de Crédito Especial</h1>
+  
+  <div>
+    <label for="balance" class="input-label">Saldo Médio:</label>
+    <input type="number" id="balance" class="input-field">
+  </div>
+  
+  <button onclick="calculateCredit()">Calcular</button>
+  
+  <div id="result" class="result"></div>
+
+  <script src="./script.js">
+  </script>
+</body>
+</html>

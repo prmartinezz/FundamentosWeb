@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Pagamento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .input-label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .input-field {
+      width: 100px;
+      padding: 5px;
+    }
+
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculadora de Pagamento</h1>
+  
+  <div>
+    <label for="price" class="input-label">Preço Normal:</label>
+    <input type="number" step="0.01" id="price" class="input-field">
+  </div>
+  
+  <div>
+    <label for="payment-option" class="input-label">Condição de Pagamento:</label>
+    <select id="payment-option" class="input-field">
+      <option value="a">À vista em dinheiro ou cheque</option>
+      <option value="b">À vista no cartão de crédito</option>
+      <option value="c">Em duas vezes sem juros</option>
+      <option value="d">Em duas vezes com juros de 10%</option>
+    </select>
+  </div>
+  
+  <button onclick="calculatePayment()">Calcular</button>
+  
+  <div id="result" class="result"></div>
+
+  <script src="./script.js">
+  </script>
+</body>
+</html> 
